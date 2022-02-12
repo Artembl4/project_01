@@ -28,7 +28,7 @@
 			<a href="#">Бесплатная консультация</a>
 		</div>
 
-		<div class="about">
+		<div id="about" class="about">
 			<img src="images/1.jpg" alt="">
 			<div>
 				<h2>Более 10 лет опыта в лечении зубов</h2>
@@ -68,8 +68,8 @@
 				<p>Запишитесь на прием к врачу</p>
 				<form action="">
 					<input type="text">
-					<input type="mail">
-					<input type="phone">
+					<input type="email">
+					<input type="tel">
 					<input type="submit" value="Записаться сейчас!">
 				</form>
 				<p>Нажимая на кнопку, Вы принимаете Положение и Согласие на обработку персональных данных.</p>
@@ -211,7 +211,7 @@
 			</ul>
 		</div>
 
-		<div class="feedbacks">
+		<div id="feedbacks" class="feedbacks">
 			<h2>Отзывы клиентов нашей клиники</h2>
 			<p>Что говорят наши клиенты</p>
 			<ul class="feedbacks-list">
@@ -247,6 +247,113 @@
 				</li>
 			</ul>
 		</div>
+
+		<div class="price">
+			<h2>Cтоимость услуг</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Наименование услуги</th>
+						<th>Лечение зубов без микроскопа</th>
+						<th>Лечение зубов с микроскопом</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Консультация</td>
+						<td>300 руб.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Диагностическое вмешательство</td>
+						<td>1 500 руб.</td>
+						<td>1 500 руб.</td>
+					</tr>
+					<tr>
+						<td>Имплантация эмали (лечение кариеса)</td>
+						<td>2 500 руб.</td>
+						<td>2 500 руб.</td>
+					</tr>
+					<tr>
+						<td>Лечение поверхностного и начального кариеса</td>
+						<td>2 800 руб.</td>
+						<td>3 000 руб.</td>
+					</tr>
+					<tr>
+						<td>Лечение поверхностного и начального кариеса</td>
+						<td>2 800 руб.</td>
+						<td>3 000 руб.</td>
+					</tr>
+					<tr>
+						<td>Имплантация эмали (лечение кариеса)</td>
+						<td>2 500 руб.</td>
+						<td>2 500 руб.</td>
+					</tr>
+					<tr>
+						<td>Диагностическое вмешательство</td>
+						<td>1 500 руб.</td>
+						<td>1 500 руб.</td>
+					</tr>
+					<tr>
+						<td>Имплантация эмали (лечение кариеса)</td>
+						<td>2 500 руб.</td>
+						<td>2 500 руб.</td>
+					</tr>
+					<tr>
+						<td>Консультация</td>
+						<td>300 руб.</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="appeal">
+			<div>
+				<h2>Ваш вопрос главному врачу</h2>
+				<form action="">
+					<p>
+						<label for="name">Введите имя</label>
+						<input id="name" type="text">
+					</p>
+					<p>
+						<label for="email">Введите email</label>
+						<input id="email" type="email">
+					</p>
+					<p>
+						<label for="question">Задайте Ваш вопрос</label>
+						<input id="question" type="text">
+					</p>
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+
+		<div id="contacts" class="contacts">
+			<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/45/cheboksary/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Чебоксары</a><a href="https://yandex.ru/maps/45/cheboksary/house/prospekt_maksima_gorkogo_18/YE4Ydw9oTkUHQFtsfX11eH5nZQ==/?ll=47.188654%2C56.149078&utm_medium=mapframe&utm_source=maps&z=18.15" style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Максима Горького, 18 — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU5B2c7kA" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+		</div>
+
+		<footer>
+			<div class="footer-logo">
+				<img class="logo-image" src="images/logo.png" alt="Лого">
+				<span class="logo-title">Стомотология у Петра</span>
+				<p>Лечение зубов в Чебоксарах</p>
+			</div>
+			<div class="footer-nav">
+				<p>Информация</p>
+				<ul class="nav-list">
+					<li class="list-item">
+						<a href="#about">Почему мы</a>
+					</li>
+					<li class="list-item">
+						<a href="#feedbacks">Отзывы</a>
+					</li>
+					<li class="list-item">
+						<a href="#contacts">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
